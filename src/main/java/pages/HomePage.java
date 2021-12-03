@@ -12,6 +12,7 @@ public class HomePage {
     private By brokenImagesLink = By.linkText("Broken Images");
     private By disappElemLink = By.linkText("Disappearing Elements");
     private By dynamicLoadingLink = By.linkText("Dynamic Loading");
+    private By entryAdLink = By.linkText("Entry Ad");
     
     public HomePage(WebDriver driver){
         this.driver = driver;
@@ -50,5 +51,10 @@ public class HomePage {
 	public DynamicLoadingPage clickDynamicLoading() {
 		driver.findElement(dynamicLoadingLink).click();
         return new DynamicLoadingPage(driver);
+	}
+	
+	public EntryAdPage clickEntryAd() {
+		driver.findElement(entryAdLink).click();
+        return new EntryAdPage(driver);
 	}
 }

@@ -8,13 +8,8 @@
         <parameter name="user" value="tomsmith"></parameter>
         <parameter name="password" value="SuperSecretPassword!"></parameter>
         <classes>
-        	<class name="tests.LoginTests"> </class>
-        	<class name="tests.CheckboxesTests"> </class>
-        	<class name="tests.AddRemElemTests"> </class>
-        	<class name="tests.DropdownTests"> </class>
-        	<class name="tests.BrokenImagesTests"> </class>
-        	<class name="tests.DisappElemsTests"> </class>
-        	<class name="tests.DynamicLoadingTests"> </class>
+        	
+        	<class name="tests.EntryAdTests"> </class>
         </classes>
     </test>
 </suite>
